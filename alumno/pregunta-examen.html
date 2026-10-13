@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pregunta</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body onload="renderPregunta()">
+  <div class="layout-alumno">
+    <div class="encabezado-alumno">
+      <span class="marca">Sistema de Retención de Aprendizaje</span>
+      <a href="inicio-alumno.html">Salir</a>
+    </div>
+    <p class="texto-auxiliar" id="contador">Pregunta 1 de 5</p>
+    <h2 id="tituloPregunta">¿Qué es una variable?</h2>
+    <form>
+      <label class="opcion"><input type="radio" name="opcion" value="0"><span id="opcion1"> Un espacio que almacena un valor</span></label>
+      <label class="opcion"><input type="radio" name="opcion" value="1"><span id="opcion2"> Una estructura de repetición</span></label>
+      <label class="opcion"><input type="radio" name="opcion" value="2"><span id="opcion3"> Un tipo de función</span></label>
+      <label class="opcion"><input type="radio" name="opcion" value="3"><span id="opcion4"> Una base de datos</span></label>
+    </form>
+    <p><button type="button" class="boton-grande" onclick="responder()">Responder</button></p>
+  </div>
+  <script src="../script_evaluacion.js"></script>
+</body>
+</html>

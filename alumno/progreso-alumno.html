@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi progreso</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="layout-alumno">
+<div class="encabezado-alumno">
+      <span class="marca">Sistema de Retención de Aprendizaje</span>
+      <div class="links">
+        <a href="inicio-alumno.html">Inicio</a>
+        <a href="login-alumno.html">Cerrar sesión</a>
+      </div>
+    </div>
+    <h2>Mi progreso</h2>
+    <div class="tarjeta">
+      <p>Retención general: <span class="etiqueta alta">78%</span></p>
+    </div>
+    <div class="tarjeta">
+      <div class="concepto-progreso">
+        <div class="fila">
+          <span>Variables y tipos de datos</span>
+          <span class="etiqueta alta">90%</span>
+        </div>
+        <div class="barra"><div class="relleno alta" style="width: 90%;"></div></div>
+      </div>
+      <div class="concepto-progreso">
+        <div class="fila">
+          <span>Estructuras de control</span>
+          <span class="etiqueta alta">76%</span>
+        </div>
+        <div class="barra"><div class="relleno alta" style="width: 76%;"></div></div>
+      </div>
+      <div class="concepto-progreso">
+        <div class="fila">
+          <span>Funciones</span>
+          <span class="etiqueta media">64%</span>
+        </div>
+        <div class="barra"><div class="relleno media" style="width: 64%;"></div></div>
+      </div>
+      <div class="concepto-progreso">
+        <div class="fila">
+          <span>Arreglos</span>
+          <span class="etiqueta baja">58%</span>
+        </div>
+        <div class="barra"><div class="relleno baja" style="width: 58%;"></div></div>
+      </div>
+    </div>
+    <p><a class="boton boton-grande" href="pregunta-examen.html" onclick="iniciarEvaluacion()">Practicar conceptos pendientes</a></p>
+  </div>
+  <script src="../script_evaluacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - Alumno</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="layout-alumno">
+<div class="encabezado-alumno">
+      <span class="marca">Sistema de Retención de Aprendizaje</span>
+      <div class="links">
+        <a href="progreso-alumno.html">Mi progreso</a>
+        <a href="login-alumno.html">Cerrar sesión</a>
+      </div>
+    </div>
+    <h2>Hola, Juan Pérez</h2>
+    <div class="tarjeta">
+      <p>Micro-evaluación semanal pendiente, 5 preguntas, 3 minutos</p>
+      <p><a class="boton boton-grande" href="pregunta-examen.html" onclick="iniciarEvaluacion()">Comenzar evaluación</a></p>
+    </div>
+    <div class="tarjetas-datos">
+      <div class="tarjeta-dato">
+        <div>
+          <span class="descripcion">Retención actual</span>
+          <span class="numero">76%</span>
+        </div>
+      </div>
+      <div class="tarjeta-dato">
+        <div>
+          <span class="descripcion">Evaluaciones</span>
+          <span class="numero">8</span>
+        </div>
+      </div>
+      <div class="tarjeta-dato">
+        <div>
+          <span class="descripcion">Tiempo promedio</span>
+          <span class="numero">4 min</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../script_evaluacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar sesión - Alumno</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="centrado">
+  <div class="tarjeta-login">
+    <h1>Sistema de Retención de Aprendizaje</h1>
+    <h2>Iniciar sesión (Alumno)</h2>
+    <form onsubmit="return revisarFormulario(this)">
+      <input type="hidden" name="destino" value="inicio-alumno.html">
+      <label>Correo:</label>
+      <input type="text" name="correo">
+      <label>Contraseña:</label>
+      <input type="password" name="password">
+      <p class="error" id="error"></p>
+      <p><button type="submit" class="boton-grande">Iniciar sesión</button></p>
+      <p><a href="../docente/login-docente.html">Acceso para docentes</a></p>
+    </form>
+  </div>
+  <script src="../script_evaluacion.js"></script>
+</body>
+</html>
